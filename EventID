@@ -1,3 +1,14 @@
+Event Log có 3 phần chính
+	• Windows Logs: Là phần quan trọng nhất, phục vụ chủ yếu cho điều tra.
+		○ Application: Nơi lưu nhật ký các chương trình, phần mềm cài trên máy
+		○ Security: Nơi lưu nhật ký liên quan đến bảo mật của máy tính. Như đăng nhập đăng xuất, bật tắt máy...
+		○ System: Nơi lưu nhật ký liên quan đến tác động vào hệ thống file của Windows. Như cài đặt, bật tắt service…
+		○ Setup: Nơi lưu lại nhật ký cài đặt các bản vá của Windows.
+		○ Forwarded events: Nơi lưu nhật ký liên quan đến các máy tính khác trong mạng tác động tới máy tính của bạn.
+	• Application and Services Logs: Nơi lưu lại nhật ký liên quan đến các chương trình, phần mềm của Windows hoặc của các chương, trình phần mềm đăng ký với Windows để ghi lại nhật ký.
+	• Custom View: Bạn chỉ quan tâm đến một số sự kiện, bạn có thể vào phần này để cấu hình.
+Vị trí lưu file của Event log “%SystemRoot%\System32\Winevt\Logs”. Kích thước tối đa của mỗi file là 20MB, khi file log quá giới hạn các bản ghi cũ sẽ bị xóa bỏ. Tùy thuộc vào mục đích chúng ta có thể cấu hình tăng kích thước này lên.
+
 Create Process Local Group Policy 
 Computer Configuration - Windown Setting - Security Setting - Advance Audit Policy Configuration -- Dettailed Tracking - Audit Process Creation
 Computer Configuration - Windown Setting - Administrative Templates - System - Audit process -- Include command line 
