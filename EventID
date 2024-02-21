@@ -1,4 +1,10 @@
-Security
+Create Process Local Group Policy 
+Computer Configuration - Windown Setting - Security Setting - Advance Audit Policy Configuration -- Dettailed Tracking - Audit Process Creation
+Computer Configuration - Windown Setting - Administrative Templates - System - Audit process -- Include command line 
+
+                                      Security
 1102: Clear Log
 4624: Account Successful
 4625: Account Fail
+4688: A new process has been created
+                                      System
