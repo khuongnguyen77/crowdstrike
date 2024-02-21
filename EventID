@@ -1,3 +1,5 @@
+Comnand check gpo update: rsop
+
 Event Log có 3 phần chính
 	• Windows Logs: Là phần quan trọng nhất, phục vụ chủ yếu cho điều tra.
 		○ Application: Nơi lưu nhật ký các chương trình, phần mềm cài trên máy
@@ -17,6 +19,7 @@ Computer Configuration - Windown Setting - Administrative Templates - System - A
 1102: Clear Log
 4624: Account Successful --- logon type: 3 Network
 4625: Account Fail
+4656: A handle to an object was requested
 4688: A new process has been created
 4670: Permissions on an object were changed
 4720: Account Created
