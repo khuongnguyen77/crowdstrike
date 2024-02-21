@@ -21,3 +21,8 @@ Computer Configuration - Windown Setting - Administrative Templates - System - A
 4720: Account Created
 4740: Account locked out
                                       System
+
+
+
+Application And Services log 
+\Microsoft\Windows\TerminalServices-RemoteConnectionManager\Operational lọc tìm các event mã 1149 để xem lịch sử remote desktop
