@@ -33,7 +33,6 @@ Computer Configuration - Windown Setting - Administrative Templates - System - A
 4728: Member added to security enabled global group
 4732: Member added to security enabled local group
 4756: Member added to security enabled universal group
-
                                       System
 41: Lost Power
 1074: C:\Windows\Explorer.EXE -- Restart and Power off
@@ -46,11 +45,15 @@ Computer Configuration - Windown Setting - Administrative Templates - System - A
 4719: System audit policy was changed
 4698: A scheduled task was created
 5712: A Remote Procedure Call (RPC) was attempted
-
 					Setup
 1: initial packed
 2: update packed windows
-					
+					Windowns Powershell 
+600: start of powershell session
+403: script block
+400: try script again
+300: record power shell
+
 
 Application And Services log 
 \Microsoft\Windows\TerminalServices-RemoteConnectionManager\Operational lọc tìm các event mã 1149 để xem lịch sử remote desktop
