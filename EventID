@@ -14,6 +14,7 @@ Computer Configuration - Windown Setting - Security Setting - Advance Audit Poli
 Computer Configuration - Windown Setting - Administrative Templates - System - Audit process -- Include command line 
 
 				     Application
+1001: application have a problem
 11707: event ID with MsiInstaller Event
 11724: remove application
 1033: error in install
