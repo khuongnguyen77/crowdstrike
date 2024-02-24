@@ -28,6 +28,7 @@ Computer Configuration - Windown Setting - Administrative Templates - System - A
 4657: A registry value was modified
 4663: monitoring file-level activities
 4719: System audit policy was changed
+4698: A scheduled task was created
 
 
 
