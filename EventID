@@ -20,10 +20,10 @@ Computer Configuration - Windown Setting - Administrative Templates - System - A
 4624: Account Successful --- logon type: 3 Network
 4625: Account Fail
 4656: A handle to an object was requested
+4657: A registry value was changed
 4670: Permissions on an object were changed
 4674: An operation was attempted on a privileged object
-4688: A new process has been created
-4720: Account Created
+
 4740: Account locked out
 4728: Member added to security enabled global group
 4732: Member added to security enabled local group
@@ -34,6 +34,10 @@ Computer Configuration - Windown Setting - Administrative Templates - System - A
 1074: C:\Windows\Explorer.EXE -- Restart and Power off
 4657: A registry value was modified
 4663: monitoring file-level activities
+4688: A new process has been created
+4697: An attempt was made to install a service
+4698, 4699, 4700, 4701, 4702: Events related to Windows scheduled tasks being created, modified, deleted, enabled or disabled
+4720: Account Created
 4719: System audit policy was changed
 4698: A scheduled task was created
 5712: A Remote Procedure Call (RPC) was attempted
