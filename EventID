@@ -56,6 +56,7 @@ Computer Configuration - Windown Setting - Administrative Templates - System - A
 
 
 Application And Services log 
-\Microsoft\Windows\TerminalServices-RemoteConnectionManager\Operational lọc tìm các event mã 1149 để xem lịch sử remote desktop
+\Microsoft\Windows\TerminalServices-RemoteConnectionManager\Operational:  1149 remote desktop
+\Microsoft\Windows\Application experience\Program-compatibility-assistant: 17 check dowload application
 
 
