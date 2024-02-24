@@ -16,6 +16,8 @@ Computer Configuration - Windown Setting - Administrative Templates - System - A
 				     Application
 11707: event ID with MsiInstaller Event
 11724: remove application
+1033: error in install
+1042: information install and uninstall
                                       Security
 1102: Clear Log
 4624: Account Successful --- logon type: 3 Network
