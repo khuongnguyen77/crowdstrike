@@ -18,10 +18,12 @@ Computer Configuration - Windown Setting - Administrative Templates - System - A
 4624: Account Successful --- logon type: 3 Network
 4625: Account Fail
 4656: A handle to an object was requested
-4688: A new process has been created
 4670: Permissions on an object were changed
+4674: An operation was attempted on a privileged object
+4688: A new process has been created
 4720: Account Created
 4740: Account locked out
+
                                       System
 41: Lost Power
 1074: C:\Windows\Explorer.EXE -- Restart and Power off
@@ -29,6 +31,7 @@ Computer Configuration - Windown Setting - Administrative Templates - System - A
 4663: monitoring file-level activities
 4719: System audit policy was changed
 4698: A scheduled task was created
+
 
 
 
