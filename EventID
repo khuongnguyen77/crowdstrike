@@ -13,6 +13,8 @@ Create Process Local Group Policy: command : rsop
 Computer Configuration - Windown Setting - Security Setting - Advance Audit Policy Configuration -- Dettailed Tracking - Audit Process Creation
 Computer Configuration - Windown Setting - Administrative Templates - System - Audit process -- Include command line 
 
+				     Application
+
                                       Security
 1102: Clear Log
 4624: Account Successful --- logon type: 3 Network
@@ -23,6 +25,9 @@ Computer Configuration - Windown Setting - Administrative Templates - System - A
 4688: A new process has been created
 4720: Account Created
 4740: Account locked out
+4728: Member added to security enabled global group
+4732: Member added to security enabled local group
+4756: Member added to security enabled universal group
 
                                       System
 41: Lost Power
@@ -31,7 +36,9 @@ Computer Configuration - Windown Setting - Administrative Templates - System - A
 4663: monitoring file-level activities
 4719: System audit policy was changed
 4698: A scheduled task was created
+5712: A Remote Procedure Call (RPC) was attempted
 
+					
 
 
 
