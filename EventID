@@ -46,10 +46,10 @@ Computer Configuration - Windown Setting - Administrative Templates - System - A
 4698: A scheduled task was created
 5712: A Remote Procedure Call (RPC) was attempted
 
+					Setup
+1: initial packed
+2: update packed windows
 					
-
-
-
 
 Application And Services log 
 \Microsoft\Windows\TerminalServices-RemoteConnectionManager\Operational lọc tìm các event mã 1149 để xem lịch sử remote desktop
