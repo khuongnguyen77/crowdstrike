@@ -57,6 +57,7 @@ Computer Configuration - Windown Setting - Administrative Templates - System - A
 \Microsoft\Windows\TerminalServices-RemoteConnectionManager\Operational:  1149 remote desktop
 \Microsoft\Windows\Application experience\Program-compatibility-assistant: 17 check dowload application
 \Microsoft\Windows\DeviceSetup Manager\Devicesetup Manager and DHCP-client: Check network connect
++ Wlan-AutoConfig
 + printer: connect to printer
 + smbclient: connect to file server
 + StorageSpaces-Driver: connect to usb
