@@ -53,14 +53,14 @@ Computer Configuration - Windown Setting - Administrative Templates - System - A
 403: script block
 400: try script again
 300: record power shell
-
-
-Application And Services log 
+				Application And Services log 
 \Microsoft\Windows\TerminalServices-RemoteConnectionManager\Operational:  1149 remote desktop
 \Microsoft\Windows\Application experience\Program-compatibility-assistant: 17 check dowload application
-\Microsoft\Windows\DeviceSetup Manager\Devicesetup Manager and DHCP-client
-+ printer
-+ smbclient
-+ StorageSpaces-Driver
+\Microsoft\Windows\DeviceSetup Manager\Devicesetup Manager and DHCP-client: Check network connect
++ printer: connect to printer
++ smbclient: connect to file server
++ StorageSpaces-Driver: connect to usb
++ Taskscheduler: 201 action sucessful
+
 
 
