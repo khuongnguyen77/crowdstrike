@@ -61,5 +61,6 @@ Application And Services log
 \Microsoft\Windows\DeviceSetup Manager\Devicesetup Manager and DHCP-client
 + printer
 + smbclient
++ StorageSpaces-Driver
 
 
