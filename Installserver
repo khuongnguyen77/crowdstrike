@@ -1,2 +1,4 @@
 Cài đặt máy chủ esxi
-Check 
+Check bios : 
+    Sata setting: raid mode
+    TPM Trusted Platform Module: Kiểm tra tính toàn vẹn của máy chủ và phần mềm 
