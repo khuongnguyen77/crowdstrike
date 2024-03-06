@@ -12,3 +12,4 @@ Check log malware
     Userinit.exe: Chịu trách nhiệm khởi động người dùng sau khi đăng nhập vào hệ thống
     Explorer.exe: Quản lý giao diện người dùng và hiển thị môi trường làm việc chính bao gôm desktop và tệp tin      
     DLL (Dynammic Link Library) thư viện hoạt động liên kết giúp tối ưu hóa việc chia sẻ mã nguồn giữa các ứng dụng khác nhau
+    ASEP (Auto start extensibility Point) Điểm mở rộng tự động khởi chạy ứng dụng khi máy tính khởi động
