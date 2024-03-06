@@ -1,3 +1,11 @@
+Process execution 
+network connections
+File system Activity
+user information
+service details
+Script activity and admin tool usage.
+
+
 https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/auditing/file-system-global-object-access-auditing
 Event Log có 3 phần chính
 	• Windows Logs: Là phần quan trọng nhất, phục vụ chủ yếu cho điều tra.
