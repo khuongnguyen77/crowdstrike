@@ -5,7 +5,7 @@ LocalAddressIP4 = 192.168.49.212
 /* Filter for LogonType */
 | field_temp:= ?{LogonType="*"}
 
-
+| groupBy("#event_simpleName") 
 Remote IP
 LocalAddressIP4 = 192.168.49.212
 | RemoteIP = *
