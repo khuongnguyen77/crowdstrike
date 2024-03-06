@@ -11,12 +11,23 @@ LocalAddressIP4 = 192.168.49.212
 | RemoteIP = *
 
 
-#event_simpleName:
+#event_simpleName =
       UserLogon
+      UserLogonFailed
+      UserLogonFailed2
+      ServiceStarted
+      DnsRequest
       SyntheticProcessRollup2
+      ProcessRollup2
+      ProcessInjection
+      InjectedThread
       DriverLoad
       NetworkConnectIP4
+      LocalIpAddressIP4
+      NetworkListenIP4
       NewScriptWritten
+      RansomwareOpenFile
+      ScheduledTaskRegistered
       Scheduled TaskModified
       Executable 
 
