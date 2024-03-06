@@ -19,6 +19,7 @@ LocalAddressIP4 = 192.168.49.212
       DnsRequest
       SyntheticProcessRollup2
       ProcessRollup2: theo dõi tiến trình của hệ thống
+      SensorHeartbeat: theo dõi tình trạng bảo mật hệ thống
       ProcessInjection
       InjectedThread
       DriverLoad
