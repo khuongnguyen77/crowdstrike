@@ -5,6 +5,12 @@ LocalAddressIP4 = 192.168.49.212
 /* Filter for LogonType */
 | field_temp:= ?{LogonType="*"}
 
+
+Remote IP
+LocalAddressIP4 = 192.168.49.212
+| RemoteIP = *
+
+
 #event_simpleName:
       UserLogon
       SyntheticProcessRollup2
