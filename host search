@@ -18,7 +18,7 @@ LocalAddressIP4 = 192.168.49.212
       ServiceStarted
       DnsRequest
       SyntheticProcessRollup2
-      ProcessRollup2
+      ProcessRollup2: theo dõi tiến trình của hệ thống
       ProcessInjection
       InjectedThread
       DriverLoad
