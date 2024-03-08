@@ -14,7 +14,7 @@ LocalAddressIP4 = 192.168.42.14
 #event_simpleName =
       UserLogon
       UserLogonFailed
-      UserLogonFailed2
+     "#event_simpleName" = UserLogonFailed2
       ServiceStarted
 
       DnsRequest
