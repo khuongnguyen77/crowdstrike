@@ -53,6 +53,7 @@ Computer Configuration - Windown Setting - Administrative Templates - System - A
 4719: System audit policy was changed
 4698: A scheduled task was created
 5712: A Remote Procedure Call (RPC) was attempted
+7045: New event
 					Setup
 1: initial packed
 2: update packed windows
