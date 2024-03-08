@@ -6,9 +6,9 @@ LocalAddressIP4 = 192.168.49.212
 | field_temp:= ?{LogonType="*"}
 
 | groupBy("#event_simpleName") 
-Remote IP
-LocalAddressIP4 = 192.168.49.212
-| RemoteIP = *
+LocalAddressIP4 = 192.168.42.14
+| "#event_simpleName" = NetworkReceiveAcceptIP4
+| LocalPort = 3389
 
 
 #event_simpleName =
@@ -16,6 +16,7 @@ LocalAddressIP4 = 192.168.49.212
       UserLogonFailed
       UserLogonFailed2
       ServiceStarted
+
       DnsRequest
       SyntheticProcessRollup2
       ProcessRollup2: theo dõi tiến trình của hệ thống
@@ -24,6 +25,7 @@ LocalAddressIP4 = 192.168.49.212
       InjectedThread
       DriverLoad
       NetworkConnectIP4
+      NetworkReceiveAcceptIP4
       LocalIpAddressIP4
       NetworkListenIP4
       NewScriptWritten
