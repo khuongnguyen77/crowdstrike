@@ -15,6 +15,7 @@ LocalAddressIP4 = 192.168.42.14
       UserLogon
       UserLogonFailed
      "#event_simpleName" = UserLogonFailed2
+      | LogonType = 3
       ServiceStarted
 
       DnsRequest
