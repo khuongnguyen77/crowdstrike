@@ -1,10 +1,20 @@
+Event check server:
+  1. User information: Failed log in attempt to host, add permission, change, delete
+  2. System insight: Cpu, Ram, HDD, Power on and off, Application, 
+	  Secure boot: firmware -- boot loader -- operating system it will be check all issued from the parties
+	  System Guard: sử dụng công nghệ Virtual Secure Mode: Can thiệp các thực thể độc hại vào bô nhớ ram 
+	  Credential Guard: Bảo vệ các mật khẩu: NTLM và Keberos
+  3. Network Connect: Connect to IP not defind, The traffic is over
+
+
+
+
+
 Process execution 
 network connections
 File system Activity
-user information
 service details
 Script activity and admin tool usage.
-
 
 https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/auditing/file-system-global-object-access-auditing
 Event Log có 3 phần chính
