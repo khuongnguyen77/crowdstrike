@@ -5,6 +5,13 @@ Event check server:
 	  Secure boot: firmware -- boot loader -- operating system it will be check all issued from the parties
 	  System Guard: sử dụng công nghệ Virtual Secure Mode: Can thiệp các thực thể độc hại vào bô nhớ ram 
 	  Credential Guard: Bảo vệ các mật khẩu: NTLM và Keberos ( sử dụng PowerShell Empire and mimikats or credentials file view)
+Spotlight: Vulnerability management
+	  Expert Prediction Rating: (Đánh giá chuyên gia)
+	  Install patches (host fix): https://www.catalog.update.microsoft.com/Search.aspx?q=kb5034171 
+	 	Dynamic Update: cho phép tìm kiếm và tải xuống các bản cập nhập mới nhất trong quá trình cài đặt
+		Cumulative Update: Bao gồm các bản cập nhập trước đó cho phiên bản cụ thể hệ điều hành windowns	
+			.CAB (caibnet) cài đặt và bản quá đóng gói với dạng tập tin 
+	    		. MSU (Microsoft update standalone package) cài đặt trực tiếp
   3. Network Connect: Connect to IP not defind, The traffic is over
 
 
