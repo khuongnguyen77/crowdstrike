@@ -13,17 +13,12 @@ Spotlight: Vulnerability management
 		Cumulative Update: Bao gồm các bản cập nhập trước đó cho phiên bản cụ thể hệ điều hành windowns	
 			.CAB (caibnet) cài đặt và bản quá đóng gói với dạng tập tin 
 	    		. MSU (Microsoft update standalone package) cài đặt trực tiếp
-  3. Network Connect: Connect to IP not defind, The traffic is over
+3. Network Connect: Connect to IP not defind, The traffic is over
+4. Process execution
+5. Services detail
+6. Script activity and admin tool usage
+7. File  system Activity
 
-
-
-
-
-Process execution 
-network connections
-File system Activity
-service details
-Script activity and admin tool usage.
 
 https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/auditing/file-system-global-object-access-auditing
 Event Log có 3 phần chính
