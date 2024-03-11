@@ -1,10 +1,11 @@
 Event check server:
   1. User information: Failed log in attempt to host, add permission, change, delete
-  2. System insight: Cpu, Ram, HDD, Power on and off, Application: asset management -- application install -- action: email 
-			Most used applications with suspicious activity
+  2. System insight: Cpu, Ram, HDD, Power on and off, 
 	  Secure boot: firmware -- boot loader -- operating system it will be check all issued from the parties
 	  System Guard: sử dụng công nghệ Virtual Secure Mode: Can thiệp các thực thể độc hại vào bô nhớ ram 
 	  Credential Guard: Bảo vệ các mật khẩu: NTLM và Keberos ( sử dụng PowerShell Empire and mimikats or credentials file view)
+Application: asset management -- application install -- action: email 
+	Most used applications with suspicious activity
 Spotlight: Vulnerability management
 	  Expert Prediction Rating: (Đánh giá chuyên gia)
 	  Install patches (host fix): https://www.catalog.update.microsoft.com/Search.aspx?q=kb5034171 
