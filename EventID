@@ -1,4 +1,4 @@
-						EVENT CHECK SERVER
+						EVENT CHECK SERVER | groupBy("#event_simpleName")
 1. User information: Failed log in attempt to host, add permission, change, delete (UserLogon, UserLogonFailed)
 				 "#event_simpleName" = UserLogonFailed2
 					| UserName=~/^Administrator$/
