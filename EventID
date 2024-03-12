@@ -14,12 +14,20 @@ Spotlight: Vulnerability management
 			.CAB (caibnet) cài đặt và bản quá đóng gói với dạng tập tin 
 	    		. MSU (Microsoft update standalone package) cài đặt trực tiếp
 		group on Investigate Host
-3. Network Connect: Connect to IP not defind, The traffic is over
+3. Network Connect: Connect to IP not defind, The traffic is over 
+
 4. Process execution
 5. Services detail
 6. Script activity and admin tool usage
 7. File  system Activity
 
+
+Events timeline host
+    Userinit.exe: Chịu trách nhiệm khởi động người dùng sau khi đăng nhập vào hệ thống
+    Explorer.exe: Quản lý giao diện người dùng và hiển thị môi trường làm việc chính bao gôm desktop và tệp tin      
+    DLL (Dynammic Link Library) thư viện hoạt động liên kết giúp tối ưu hóa việc chia sẻ mã nguồn giữa các ứng dụng khác nhau
+    ASEP (Auto start extensibility Point) Điểm mở rộng tự động khởi chạy ứng dụng khi máy tính khởi động
+    Svchost: Service host đảm nhiệm việc quản lý và chạy các dịch vụ hệ thống.
 
 https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/auditing/file-system-global-object-access-auditing
 Event Log có 3 phần chính
