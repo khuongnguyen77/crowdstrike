@@ -1,4 +1,4 @@
-Event search advanced
+Event search advanced  | groupBy([ComputerName, #event_simpleName])
 LocalAddressIP4 = 192.168.49.212
 #repo=base_sensor #event_simpleName=UserLogonFailed2 cid=?{cid="*"}
 | default(field=[LogonType, ComputerName, LocalAddressIP4], value="--", replaceEmpty=true)
