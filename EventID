@@ -34,6 +34,18 @@ Alert - Epp (Endpoint protection platform)
 9. Firewall (inbound - outbound)
 10. Check Windows + System 32 : 
 
+
+
+						WorkFlow
+1. Phát hiện Malware
+2. Các hành vi bất ngờ
+3. Brute Force
+4. Thay đổi cấu hình
+5. Chuyển đổi đặc quyền
+6. Leo thang qua mạng khác
+7. User login nhiều lần
+
+
  ServiceStarted
       DnsRequest
       SyntheticProcessRollup2
