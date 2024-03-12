@@ -30,6 +30,7 @@ Alert - Epp (Endpoint protection platform)
 5. Services detail
 6. Script activity and admin tool usage
 7. File  system Activity
+	When - custom IOA monitor - File Creation -- action: Send email
 8. Task schedule
 9. Firewall (inbound - outbound)
 10. Check Windows + System 32 : 
