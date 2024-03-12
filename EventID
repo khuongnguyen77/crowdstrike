@@ -19,7 +19,8 @@ Spotlight: Vulnerability management
 			.CAB (caibnet) cài đặt và bản quá đóng gói với dạng tập tin 
 	    		. MSU (Microsoft update standalone package) cài đặt trực tiếp
 		group on Investigate Host
-3. Network Connect: Connect to IP not defind, The traffic is over 
+3. Network Connect: netstat -ano -- tasklisk |findstr "pid"
+Connect to IP not defind, The traffic is over 
 			LocalAddressIP4 = 192.168.42.14
 			| "#event_simpleName" = NetworkReceiveAcceptIP4
 			| LocalPort = 3389
@@ -28,6 +29,7 @@ Spotlight: Vulnerability management
 5. Services detail
 6. Script activity and admin tool usage
 7. File  system Activity
+8. Task schedule
 
 
 
