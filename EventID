@@ -1,6 +1,10 @@
-Event check server:
-  1. User information: Failed log in attempt to host, add permission, change, delete
-  2. System insight: Cpu, Ram, HDD, Power on and off, 
+						EVENT CHECK SERVER
+1. User information: Failed log in attempt to host, add permission, change, delete
+				 "#event_simpleName" = UserLogonFailed2
+					| UserName=~/^Administrator$/
+					| LogonType = 3
+					| RemoteAddressIP4 = *
+2. System insight: Cpu, Ram, HDD, Power on and off, 
 	  Secure boot: firmware -- boot loader -- operating system it will be check all issued from the parties
 	  System Guard: sử dụng công nghệ Virtual Secure Mode: Can thiệp các thực thể độc hại vào bô nhớ ram 
 	  Credential Guard: Bảo vệ các mật khẩu: NTLM và Keberos ( sử dụng PowerShell Empire and mimikats or credentials file view)
