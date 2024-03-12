@@ -27,7 +27,23 @@ Spotlight: Vulnerability management
 6. Script activity and admin tool usage
 7. File  system Activity
 
-
+ ServiceStarted
+      DnsRequest
+      SyntheticProcessRollup2
+      ProcessRollup2: theo dõi tiến trình của hệ thống
+      SensorHeartbeat: theo dõi tình trạng bảo mật hệ thống
+      ProcessInjection
+      InjectedThread
+      DriverLoad
+      NetworkConnectIP4
+      NetworkReceiveAcceptIP4
+      LocalIpAddressIP4
+      NetworkListenIP4
+      NewScriptWritten
+      RansomwareOpenFile
+      ScheduledTaskRegistered
+      Scheduled TaskModified
+      Executable
 Events timeline host
     Userinit.exe: Chịu trách nhiệm khởi động người dùng sau khi đăng nhập vào hệ thống
     Explorer.exe: Quản lý giao diện người dùng và hiển thị môi trường làm việc chính bao gôm desktop và tệp tin      
