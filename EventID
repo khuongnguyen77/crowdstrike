@@ -13,6 +13,7 @@ Spotlight: Vulnerability management
 		Cumulative Update: Bao gồm các bản cập nhập trước đó cho phiên bản cụ thể hệ điều hành windowns	
 			.CAB (caibnet) cài đặt và bản quá đóng gói với dạng tập tin 
 	    		. MSU (Microsoft update standalone package) cài đặt trực tiếp
+		group on Investigate Host
 3. Network Connect: Connect to IP not defind, The traffic is over
 4. Process execution
 5. Services detail
