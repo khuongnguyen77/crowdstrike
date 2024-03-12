@@ -1,4 +1,5 @@
-						EVENT CHECK SERVER | groupBy([ComputerName, #event_simpleName])
+How to Check if a Windows Server Has Been Hacked
+				EVENT CHECK SERVER | groupBy([ComputerName, #event_simpleName])
 1. User information: Failed log in attempt to host, add permission, change, delete (UserLogon, UserLogonFailed)
 				 "#event_simpleName" = UserLogonFailed2
 					| UserName=~/^Administrator$/
@@ -23,6 +24,7 @@ Spotlight: Vulnerability management
 			| "#event_simpleName" = NetworkReceiveAcceptIP4
 			| LocalPort = 3389
 4. Process execution
+	Process makes a dns request for a specific domain name
 5. Services detail
 6. Script activity and admin tool usage
 7. File  system Activity
