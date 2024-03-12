@@ -1,5 +1,5 @@
 						EVENT CHECK SERVER
-1. User information: Failed log in attempt to host, add permission, change, delete
+1. User information: Failed log in attempt to host, add permission, change, delete (UserLogon, UserLogonFailed)
 				 "#event_simpleName" = UserLogonFailed2
 					| UserName=~/^Administrator$/
 					| LogonType = 3
