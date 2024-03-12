@@ -23,7 +23,7 @@ Spotlight: Vulnerability management
 			LocalAddressIP4 = 192.168.42.14
 			| "#event_simpleName" = NetworkReceiveAcceptIP4
 			| LocalPort = 3389
-4. Process execution
+4. Process execution:  Check abnormal processes (high Cpu and Memory Usage)
 	Process makes a dns request for a specific domain name
 5. Services detail
 6. Script activity and admin tool usage
