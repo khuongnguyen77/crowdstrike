@@ -15,7 +15,10 @@ Spotlight: Vulnerability management
 	    		. MSU (Microsoft update standalone package) cài đặt trực tiếp
 		group on Investigate Host
 3. Network Connect: Connect to IP not defind, The traffic is over 
-
+			 "#event_simpleName" = UserLogonFailed2
+			| UserName=~/^Administrator$/
+			| LogonType = 3
+			| RemoteAddressIP4 = *
 4. Process execution
 5. Services detail
 6. Script activity and admin tool usage
