@@ -5,6 +5,10 @@ How to Check if a Windows Server Has Been Hacked https://portal.databasemart.com
 					| UserName=~/^Administrator$/
 					| LogonType = 3
 					| RemoteAddressIP4 = *
+ #event_simpleName = UserLogonFailed2
+ComputerName = SRVBK
+| LogonType = 3
+
 2. System insight: Cpu, Ram, HDD, Power on and off, 
 	  Secure boot: firmware -- boot loader -- operating system it will be check all issued from the parties
 	  System Guard: sử dụng công nghệ Virtual Secure Mode: Can thiệp các thực thể độc hại vào bô nhớ ram 
