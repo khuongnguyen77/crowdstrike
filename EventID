@@ -24,6 +24,7 @@ Connect to IP not defind, The traffic is over
 			LocalAddressIP4 = 192.168.42.14
 			| "#event_simpleName" = NetworkReceiveAcceptIP4
 			| LocalPort = 3389
+			ComputerName = KHUONGNNTEST1
 4. Process execution:  Check abnormal processes (high Cpu and Memory Usage)
 	Process makes a dns request for a specific domain name
 Alert - Epp (Endpoint protection platform) 
