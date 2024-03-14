@@ -8,6 +8,9 @@ How to Check if a Windows Server Has Been Hacked https://portal.databasemart.com
  #event_simpleName = UserLogonFailed2
 ComputerName = SRVBK
 | LogonType = 3
+FileName:CompatTelRunner.exe
+FilePath:\Device\HarddiskVolume2\Windows\System32\
+CommandLine	C:\Windows\system32\compattelrunner.exe -m:GeneralTel.dll -f:RunGeneralTelemetry  -cV lfF5eXGHSkeOC+Ky.2.1 -ThrottleUtc
 
 2. System insight: Cpu, Ram, HDD, Power on and off, 
 	  Secure boot: firmware -- boot loader -- operating system it will be check all issued from the parties
