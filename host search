@@ -1,3 +1,109 @@
+ComputerName	#event_simpleName
+PRINTER-HCM	AcUnloadConfirmation
+PRINTER-HCM	AdditionalHostInfo
+PRINTER-HCM	AgentConnect
+PRINTER-HCM	AgentOnline
+PRINTER-HCM	AsepKeyUpdate
+PRINTER-HCM	AsepValueUpdate
+PRINTER-HCM	BillingInfo
+PRINTER-HCM	CabFileWritten
+PRINTER-HCM	ChannelActive
+PRINTER-HCM	ClassifiedModuleLoad
+PRINTER-HCM	ConfigStateUpdate
+PRINTER-HCM	CurrentSystemTags
+PRINTER-HCM	DcOnline
+PRINTER-HCM	DcStatus
+PRINTER-HCM	DcUsbConfigurationDescriptor
+PRINTER-HCM	DcUsbDeviceConnected
+PRINTER-HCM	DcUsbEndpointDescriptor
+PRINTER-HCM	DcUsbHIDDescriptor
+PRINTER-HCM	DcUsbInterfaceDescriptor
+PRINTER-HCM	DeliverLocalFXToCloud
+PRINTER-HCM	DetectionExcluded
+PRINTER-HCM	DirectoryCreate
+PRINTER-HCM	DiskCapacity
+PRINTER-HCM	DnsRequest
+PRINTER-HCM	DriverLoad
+PRINTER-HCM	DriverPreventionStatus
+PRINTER-HCM	EndOfProcess
+PRINTER-HCM	ErrorEvent
+PRINTER-HCM	EseFileWritten
+PRINTER-HCM	EtwComponentResponse
+PRINTER-HCM	ExecutableDeleted
+PRINTER-HCM	FalconServiceStatus
+PRINTER-HCM	FileSystemOperationDetectInfo
+PRINTER-HCM	FirewallSetRule
+PRINTER-HCM	FirmwareAnalysisErrorEvent
+PRINTER-HCM	FirmwareAnalysisHardwareData
+PRINTER-HCM	FirmwareAnalysisStatus
+PRINTER-HCM	FsVolumeMounted
+PRINTER-HCM	HostInfo
+PRINTER-HCM	HostedServiceStarted
+PRINTER-HCM	HostedServiceStopped
+PRINTER-HCM	ImageHash
+PRINTER-HCM	InjectedThread
+PRINTER-HCM	InstalledApplication
+PRINTER-HCM	InstalledUpdates
+PRINTER-HCM	IoSessionConnected
+PRINTER-HCM	IoSessionLoggedOn
+PRINTER-HCM	JpegFileWritten
+PRINTER-HCM	KernelServiceStarted
+PRINTER-HCM	LFODownloadConfirmation
+PRINTER-HCM	LnkFileWritten
+PRINTER-HCM	LocalIpAddressIP4
+PRINTER-HCM	LocalWindowsUserUpdate
+PRINTER-HCM	MemoryScanEnabled
+PRINTER-HCM	MsiFileWritten
+PRINTER-HCM	NeighborListIP4
+PRINTER-HCM	NetworkConnectIP4
+PRINTER-HCM	NetworkConnectIP6
+PRINTER-HCM	NetworkListenIP4
+PRINTER-HCM	NetworkListenIP6
+PRINTER-HCM	NetworkReceiveAcceptIP4
+PRINTER-HCM	NetworkReceiveAcceptIP6
+PRINTER-HCM	NewExecutableRenamed
+PRINTER-HCM	NewExecutableWritten
+PRINTER-HCM	OleFileWritten
+PRINTER-HCM	OsVersionInfo
+PRINTER-HCM	PeFileWritten
+PRINTER-HCM	PeVersionInfo
+PRINTER-HCM	PngFileWritten
+PRINTER-HCM	ProcessRollup2
+PRINTER-HCM	ProvisioningChannelVersionRequired
+PRINTER-HCM	PtActivationStatus
+PRINTER-HCM	RegGenericValueUpdate
+PRINTER-HCM	RegSystemConfigValueUpdate
+PRINTER-HCM	RegistryHiveFileWritten
+PRINTER-HCM	ResourceUtilization
+PRINTER-HCM	ScheduledTaskDeleted
+PRINTER-HCM	ScheduledTaskModified
+PRINTER-HCM	ScheduledTaskRegistered
+PRINTER-HCM	SensitiveWmiQuery
+PRINTER-HCM	SensorAntiTamperState
+PRINTER-HCM	SensorHeartbeat
+PRINTER-HCM	SensorSelfDiagnosticTelemetry
+PRINTER-HCM	ServiceStarted
+PRINTER-HCM	ServicesStatusInfo
+PRINTER-HCM	SmbClientShareOpenedEtw
+PRINTER-HCM	SmbServerShareOpenedEtw
+PRINTER-HCM	SpotlightEntityBatch
+PRINTER-HCM	SpotlightEntityBatchHeader
+PRINTER-HCM	SpotlightEntitySystemState
+PRINTER-HCM	SuspiciousCreateSymbolicLink
+PRINTER-HCM	SuspiciousPrivilegedProcessHandle
+PRINTER-HCM	SyntheticProcessRollup2
+PRINTER-HCM	SystemCapacity
+PRINTER-HCM	UmppaErrorEvent
+PRINTER-HCM	UserIdentity
+PRINTER-HCM	UserInformationEtw
+PRINTER-HCM	UserLogoff
+PRINTER-HCM	UserLogon
+PRINTER-HCM	UserLogonFailed
+PRINTER-HCM	UserLogonFailed2
+PRINTER-HCM	XumdHookEvent
+PRINTER-HCM	XumdStatus
+PRINTER-HCM	
+
 Event search advanced  | groupBy([ComputerName, #event_simpleName])
 LocalAddressIP4 = 192.168.49.212
 #repo=base_sensor #event_simpleName=UserLogonFailed2 cid=?{cid="*"}
@@ -37,6 +143,13 @@ LocalAddressIP4 = 192.168.42.14
       ScheduledTaskRegistered
       Scheduled TaskModified
       Executable 
+
+
+
+
+
+
+
 
 
 Events timeline host
