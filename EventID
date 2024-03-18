@@ -1,3 +1,6 @@
+Get file-path
+Get-FileHash "path"
+
 How to Check if a Windows Server Has Been Hacked https://portal.databasemart.com/kb/a753/how-to-check-if-a-windows-server-has-been-hacked.aspx#:~:text=Go%20to%20the%20start%20menu,disable%20and%20delete%20a%20task.
 				EVENT CHECK SERVER | groupBy([ComputerName, #event_simpleName])
 1. User information: Failed log in attempt to host, add permission, change, delete (UserLogon, UserLogonFailed)
